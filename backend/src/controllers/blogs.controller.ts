@@ -50,7 +50,7 @@ const createPost = async (req: Request, res: Response) => {
 const getAllPosts = async (req: Request, res: Response) => {
     try {
 
-        const limit_per_page = 20;
+        const limit_per_page = 5;
 
         const data = BlogValidation.getBlogs.parse(req.query);
         const { page, sort_order, author_id } = data;

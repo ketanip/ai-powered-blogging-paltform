@@ -7,8 +7,8 @@ const signUp = z.object({
 });
 
 const signIn = z.object({
-    title: z.string().min(10, { message: "Minimum 10 characters required." }),
-    blog: z.string().min(100, { message: "Minimum 100 characters required." }),
+    email: z.string().email({ message: "Valid email required." }),
+    password: z.string().min(8, { message: "Minimum 8 characters required." }),
 });
 
 export {
