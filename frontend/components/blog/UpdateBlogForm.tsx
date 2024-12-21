@@ -70,13 +70,19 @@ const UpdateBlogForm: React.FC<Props> = ({ _id, blog, title, author_id }) => {
   const [isUpdating, setIsUpdating] = useState(false);
 
   useEffect(() => {
-    const user = TokenManger.getUser();
+    try {
+      const user = TokenManger.getUser();
 
-    if (router) {
-      if (!user || user.id != author_id) {
-        toast("You are unauthorized to edit this resource.");
-        router.push(`/blog/${_id}`);
+      if (router) {
+        if (!user || user.id != author_id) {
+          toast("You are unauthorized to edit this resource.");
+          router.push(`/blog/${_id}`);
+        }
       }
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    } catch (error: any) {
+      toast("You are unauthorized to edit this resource.");
+      router.push(`/blog/${_id}`);
     }
   }, [_id, author_id, router]);
 
