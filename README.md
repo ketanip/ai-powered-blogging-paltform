@@ -58,6 +58,12 @@ Experience the platform with visual snapshots of key features:
   The interface for creating new blogs using the Quill WYSIWYG editor.  
   ![Create New Blog Page with Quill Editor](images/create-new-blog-page-with-quill-editor.png)
 
+- **Responsive Layout**  
+  | ![Blog Page Mobile](images/blog-page-mobile.png) | ![Home Page Mobile](images/home-page-mobile.png) | ![Mobile Navigation](images/mobile-nav.png) |
+  |--------------------------------------------------|--------------------------------------------------|---------------------------------------------|
+  | Blog Page Mobile| Home Page Mobile| Mobile Navigation|
+
+
 - **Delete Blog Warning**  
   A confirmation screen when deleting a blog post, ensuring users are cautious before deletion.  
   ![Delete Blog Warning](images/delete-blog-warning.png)
