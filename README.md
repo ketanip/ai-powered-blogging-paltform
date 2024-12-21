@@ -24,6 +24,7 @@ Welcome to the **AI Powered Blogging Platform**! This project combines cutting-e
 - **🔒 Secure Custom Authentication**: Built a robust authentication system with Argon2 password hashing and JWT for safe, seamless login.
 - **👥 Multi-User Support**: Enables multiple users to interact, share, and engage on the platform, similar to a social media experience.
 - **📦 MongoDB Integration with Mongoose**: Efficient data management with MongoDB, using Mongoose for structured interaction.
+- **📱 Responsive Layout**: Entire frontend is responsive and can be used from mobile, large screen copters and anything in between.
 - **💻 Full TypeScript Integration**: Developed using TypeScript to ensure type safety, reducing errors and improving maintainability.
 - **✍️ QuillJS WYSIWYG Editor**: Provides an intuitive, feature-rich text editor for smooth content creation.
 - **📈 SEO-Optimized SSR**: Server-side rendering for better SEO and faster page loads, with dynamic meta-data generation.
